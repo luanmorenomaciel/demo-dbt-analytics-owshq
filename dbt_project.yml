@@ -20,3 +20,6 @@ clean-targets:
 models:
   owshq_analytics:
     materialized: table
+    
+  elementary:
+    +schema: "elementary"
